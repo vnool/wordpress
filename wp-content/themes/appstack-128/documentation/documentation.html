@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Documentation AppStack - WordPress Theme - by PixelGrapes.</title>
+
+	<!-- Docs CSS -->
+	<link href="docs/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="docs/css/bootstrap-select.css" rel="stylesheet" />
+	<link href="docs/css/prism.css" rel="stylesheet" />
+	<link href="docs/css/style.css" rel="stylesheet" />
+
+	
+
+</head>
+<body>
+
+	<header id="top-bar">
+		<div class="container">
+			<img src="docs/images/logo.png" alt="logo"/>
+		</div>
+	</header> <!-- /top-bar -->
+
+	<section id="hero_box">
+		<div class="container">
+			<h1>AppStack Theme Documentation</h1>
+      <p>How to quickly setup and use this theme.</p>
+			</div>
+		</section> <!-- /hero_box -->
+
+<section id="docs_box">
+	<div class="container">
+		<section id="installation">
+			<h2 class="page-header">Installation <small>& Plugins</small></h2>
+			<p>In order to install the theme, you have two options:</p>
+			<ol>
+			<li>In the downloaded .zip file go in the /theme folder and upload the AppStack sub-folder contained in it to http://yourdomain.com/wp-content/themes/ directory via any FTP program.</li><br/>
+			<li>Take the .zip found in the theme folder and install it through the dashboard.<br/>
+				<ul> In order to activate the Theme:
+			<li>Log into your Wordpress admin using the following URL: http://yourdomain.com/ wp-login.php</li>
+			<li>Next, go to <code>Appearance > Themes</code>. Here, you should see a thumbnail of AppStack theme.</li>
+			<li>Click on the Activate link to activate this theme</li>
+		</ul>
+		</li>
+	</ol><br/>
+	<p>You will be promted in the WordPress Dashboard to install theme required plugins. Follow the prompts to install them.</p>
+	<br/>
+	<h4>Required Plugins</h4>
+	<ul>
+		<li>ACF Pro</li>
+	</ul>
+		<h4>Optional (but Recommended) Plugins</h4>
+		<ul>
+			<li>Contact Form 7</li>
+		</ul>
+		</section>
+		
+				
+		<section id="demo-content">
+			<h2 class="page-header">Demo Content <small>(optional)</small></h2>
+		    <div class="row">
+		      <div class="col-md-3 col-sm-6">
+		        <img src="docs/images/import.jpg" class="img-bd" alt="customize"/>
+		      </div>
+		      <div class="col-md-9 col-sm-6">
+				
+				
+					<p>Demo content has been included in your download to make it easier to set up the theme. It is of course completely optional.</p>
+<p>Go to Tools/Import and install the WordPress importer plugin.  You can then use it to upload the included appstack-demo.xml file.</p><br/>
+		<p class="alert alert-success">Note: - Make sure you have installed the required plugins before importing the demo content.</p>		
+			</div>
+		</div>
+		</section>
+<section id="customizer">
+  <h2 class="page-header">Customizing Theme</h2>
+  <div class="row">
+    <div class="col-md-3 col-sm-6">
+      <img src="docs/images/customizer.png" class="img-bd" alt="customize"/>
+    </div>
+    <div class="col-md-9 col-sm-6">
+      <p>This theme features advanced customization features with live preview. Click on <code>'appearance/customize'</code> to open the customizer.</p>
+<h5><code>Colors</code></h5>
+<p>Highlight colors of the theme can be set.</p>
+<h5><code>Logos</code></h5>
+<p>You can upload a header logo.</p>
+<h5><code>Header Image</code></h5>
+<p>Set a sitewide custom header image. The header image is shown on pages using the <code>'default'</code> template</p>
+<p class="alert alert-success">Note: - You can overide the header image on individual pages (featured image).</p>
+<h5><code>Social Links</code></h5>
+<p>Add your social links. Any fields with values entered will automatically display the social icon in the footer on the frontend.</p>
+    </div>
+  </div>
+</section>
+		<section id="menu-setup">
+		<h2 class="page-header">Menu Setup</h2>
+	  <div class="row">
+	    <div class="col-md-3 col-sm-6">
+		<img src="docs/images/menus.jpg" class="img-bd" alt="menus"/>
+		<img src="docs/images/nav.jpg" class="img-bd" alt="menus"/>
+		</div>
+		 <div class="col-md-9 col-sm-6">
+    <p>This theme has two menu areas. The main menu which lives at the top of pages (primary menu). And a footer menu.</p>
+	<h4>To Create a Menu</h4>
+	<ol>
+<li>Go to <code>Appearance > Menus</code></li>
+<li>Add Menu Name</li>
+<li>Click Create Menu</li>
+<li>Then select it from Manage Locations</li>
+<li>Save</li>
+<li>Select the pages that you want in the menus</li>
+<li>Add to Menu</li>
+<li>Re-arrange them</li>
+<li>Save menu</li></ol>
+<h4>Assign Menus</h4>
+<ol>
+<li>Go to <code>Appearance > Customize</code></li>
+<li>Under the 'Navigation' tab, Select your Menus</li>
+</ol>
+
+    </p>	
+	
+
+</div></div>
+
+
+		</section>
+		
+				<section id="menu-single-setup">
+				<h2 class="page-header">Single Page Links</h2>
+			  <div class="row">
+			    <div class="col-md-3 col-sm-6">
+				<img src="docs/images/custom.png" class="img-bd" alt="menus"/>
+				<img src="docs/images/customlink.png" class="img-bd" alt="menus"/>
+				</div>
+				 <div class="col-md-9 col-sm-6">
+		    <p>If using a single page design you can set up section links as follows.</p>
+			<h4>Create a Custom Link</h4>
+			<ol>
+		<li>Select the 'custom link' option.</li>
+		<li>Enter a label & add it to your menu.</li>
+	</ol>
+		<h4>Enter Section ID</h4>
+		<ol>
+		<li>Enter the section ID preceded by a hashtag.</code></li>
+		<li>Note: It should <code>match the ID</code> you set for that section in the <code>page builder</code>.</li>
+		</ol>
+<img src="docs/images/id.png" class="img-bd" alt="menus"/>
+		    </p>	
+	<p class="alert alert-success">Note: - The theme will automatically add the proper url to that section when you are on a different page.</p>
+
+		</div></div>
+
+
+				</section>
+
+
+<section id="set-homepage">
+  <h2 class="page-header">Set Home & Blog Page</h2>
+  <div class="row">
+    <div class="col-md-3 col-sm-6">
+      <img src="docs/images/static.png" class="img-bd" alt="homepage"/>
+    </div>
+    <div class="col-md-9 col-sm-6">
+      <p>
+	<ol>
+		<h4>Homepage</h4> <li>Create a new page using the homepage template <span>(If you imported the demo content, you can skip this step)</span></li>
+		<li>Go to <code>'appearance/customize'</code> and select the 'Static Front Page' tab. Set the 'Front page'.</li>
+        <br/>
+	</ol>
+  	<ol><h4>Blog Page</h4> <li>Create a new page using the default template and enter your title/subtitle. Leave the rest of the page blank.</li>
+  		<li>Go to <code>'appearance/customize'</code> and select the 'Static Front Page' tab. Set the 'Posts page'.</li>
+        
+  	</ol>
+</p><br/>
+	<p class="alert alert-success">Note: - To set the same page as your homepage and main posts page, simply set the "Posts Page" to your desired page and leave the "Front Page" selection as the default -select-.</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section id="widgets">
+  <h2 class="page-header"> Sidebar & Widgets</h2>
+  <div class="row">
+    <div class="col-md-3 col-sm-6">
+      <img src="docs/images/layout.png" class="img-bd" alt="sidebar"/>
+    </div>
+    <div class="col-md-9 col-sm-6">
+      <p>
+	  You can add widgets to the sidebar in <code> Appearance > Widgets</code>. In posts you can select to display the sidebar or leave the page full width.</p>
+		
+	 </p>
+
+    </div>
+  </div>
+</section>
+
+<section id="posts">
+  <h2 class="page-header">Posts</h2>
+  <div class="row">
+    <div class="col-md-3 col-sm-6">
+     <img src="docs/images/post-format.jpg" class="img-bd" alt="posts format"/>
+    </div>
+    <div class="col-md-9 col-sm-6">
+      <p>
+        The AppStack theme supports several post formats.  You can select 'gallery', 'quote', 'audio', 'video' or standard post format from the raio list on the right.</p>
+       <p>When you click the desired post format the post entry fields will change.<p>
+      </p>
+      <p>
+        <h4>Gallery Format</h4>  This format adds an image slider to your post.</p>
+	 
+	 	 <p>
+		 		  <h4>Video Format</h4>
+		 		  Adds video above your post. Simply enter the video link. oEmbed does the rest.</p>
+	 		   
+		 	  <p>
+		 		  <h4>Standard Format</h4>
+				  <p>This is a regular post. You can anter a 'featured image' to display above the post.</p>
+    </div>
+  </div>
+</section>
+		
+		
+		<section id="page-options">
+			<h2 class="page-header">Page Builder
+		</h2>
+		
+		  <div class="row">
+		    <div class="col-md-3 col-sm-6">
+		     <img src="docs/images/pb.png" class="img-bd" alt="pagebuilder"/>
+		    </div>
+		    <div class="col-md-9 col-sm-6">
+		      <p>
+				This theme includes simple <code>'page builder'</code> sections which allow you to quickly layout pages.</p>
+				<p>When you create a new page or post you will notice the 'layout' section.  Simply click on the 'add row' button from the bottom right to pull up the sections menu.  Simply select the section you would like to add.</p>
+				<br/>
+				<p class="alert alert-success">Note: - The 'editor'section pulls up the main WordPress content editor.</p>
+				<p class="alert alert-success">Note: - Drag & Drop sections to reorder them. Or hover over the right edge to delete them.</p>
+				
+<p class="alert alert-success">Note: - The 'Parallax Header' section should only be placed first (at the top of a page) & will replace the page header..</p>
+		    </div>
+		  </div>
+		
+		</section>
+		
+		
+			<section id="custom headers">
+				<h2 class="page-header">Custom Headers
+			</h2>
+	    <div class="row">
+	      <div class="col-md-4 col-sm-6">
+	       <img src="docs/images/featured.png" class="img-bd" alt="featured"/>
+		   <img src="docs/images/hideheader.png" class="img-bd" alt="hide header"/>
+	      </div>
+	      <div class="col-md-8 col-sm-6">
+				<p>You can add custom header images to pages/posts by uploading a 'featured image'.  If no featured image is added the page will use the default header image set in appearance/customize/header image.</p>
+				<p class="alert alert-success">Note: - You can hide the header section on a page by checking the 'Hide Header' box.</p>
+				<p class="alert alert-success">Note: - header images are best at 1900px + wide.</p>
+		</div>
+	</div>
+		</section>
+		
+
+		
+		
+		<section id="social">
+			<h2 class="page-header">Social Links</h2>
+		    <div class="row">
+		      <div class="col-md-4 col-sm-6">
+		       <img src="docs/images/social.png" class="img-bd" alt="contact"/>
+		      </div>
+		      <div class="col-md-8 col-sm-6">
+				<p>Add your social links in appearance/customize under the 'social' tab. Any links you have entered will be automatically added to the site footer.</p>
+				<br/>
+			</div>
+		</div>
+		</section>
+		
+		
+		<section id="css">
+			<h2 class="page-header">Customizing CSS</h2>
+		   
+				<p>You can create a child theme to add custom css. See more <a href="http://pixelgrapes.com/support/article/how-do-i-create-a-child-theme-2/" target="_blank">here</a>.</p>
+				
+		</section>
+		
+		<section id="icons">
+			<h2 class="page-header">Icon Set</h2>
+		   
+				<p>The theme includes fontawesome icons which can be used in some page builder sections.</p>
+				<p><a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Reference Page</a></p><br/>
+		</section>
+		
+		<section id="credits">
+			<h2 class="page-header">Credits</h2>
+			<div class="row">
+				
+				<div class="col-sm12">
+					
+<ul><li>WordPress</li>
+<li>Google Fonts</li>
+<li>jQuery</li>
+
+</ul></p>
+				</div>
+			</div>
+		</section>
+	</div> <!-- /container-->
+</section> <!-- /hero_box -->
+
+
+
+
+<footer class="main-footer">
+	<div class="container">
+		<p>
+			2015 © AppStack by PixelGrapes.
+		</p>
+	</div>
+</footer>
+
+</div> <!-- /wrapper -->
+
+
+
+
+
+<!-- Scripts -->
+<script type="text/javascript" src="docs/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="docs/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="docs/js/bootstrap-select.min.js"></script>
+<script type="text/javascript" src="docs/js/prism.js"></script>
+<script type="text/javascript" src="docs/js/main.js"></script>
+
+
+</body>
+</html>
